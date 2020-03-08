@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "884689034323",
+    "firebase_url": "https://yogdaanusers.firebaseio.com",
+    "project_id": "yogdaanusers",
+    "storage_bucket": "yogdaanusers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884689034323:android:6cd6a59df35b532abc3aa6",
+        "android_client_info": {
+          "package_name": "com.example.blogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884689034323-5d7f4on7l0rue02miup61i03odpv6dat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRutFExU3eZXjtecYA6EA64jslgiMi6-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884689034323-5d7f4on7l0rue02miup61i03odpv6dat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
