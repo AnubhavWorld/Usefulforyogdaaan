@@ -11,12 +11,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toolbar;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
     private FirebaseAuth fauth;
     private Button logout_button,account_button;
     private Toolbar tb;
+    private FloatingActionButton add_post;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +26,13 @@ public class MainActivity extends AppCompatActivity {
         tb=findViewById(R.id.main_toolbar);
         getSupportActionBar().setTitle("Yogdaan Work");
         fauth=FirebaseAuth.getInstance();
+        add_post=findViewById(R.id.addpost);
+        add_post.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
 
 
 
